@@ -25,10 +25,11 @@ function Navbar()
   window.addEventListener('resize', showButton);
 
   return(
+  <>
     <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo'>
-            PR^Y <i className='fab.fa-typo3'/>
+          <Link to='/' className='navbar-logo' onClick={closeMobileMenu} >
+            PR^Y <i className='fab fa-typo3'/>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas-fa-times' : 'fas fa-bars'} />
@@ -46,7 +47,7 @@ function Navbar()
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/Bible' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/bible' className='nav-links' onClick={closeMobileMenu}>
                 Bible
               </Link>
             </li>
@@ -59,7 +60,7 @@ function Navbar()
            {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
         </div>
     </nav>
-
+</>
   );
 }
 export default Navbar;

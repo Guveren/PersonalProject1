@@ -7,8 +7,8 @@ video {
 }
 
 .hero-container {
-  /* background: url('/Users/nguveren/Documents/stackDev/pWebsite/personal-project1/src/images/img-home.jpg') center center/cover no-repeat ; */
-  background: url('/Users/nguveren/Documents/stackDev/pWebsite/personal-project1/src/videos/video-1.mp4') center center/cover no-repeat ;
+  /* background: url('/Users/nguveren/Documents/pWebsite/personal-project1/src/components/images/home.jpg') center center/cover no-repeat ; */
+  background: url('/Users/nguveren/Documents/pWebsite/personal-project1/src/components/images/video-1.mp4') center center/cover no-repeat ;
   height: 100vh;
   width: 100%;
   display: flex;

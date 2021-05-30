@@ -8,12 +8,12 @@ function HeroSection(){
 
   return(
     <div className="hero-container" >
-      <video src="/Users/nguveren/Documents/stackDev/pWebsite/personal-project1/src/videos/video-2.mp4" autoPlay loop muted/>
+      <video src="/Users/nguveren/Documents/pWebsite/personal-project1/src/components/images/video-1.mp4" autoPlay loop muted/>
       <h1>Pray without ceasing</h1>
       <p> 1 Thessalonians 5:17</p>
       <div className='hero-btns'>
         <Button className= 'btns' buttonStyle='btn--outline' buttonSize='btn--large'>
-          Pray anonymously 
+          Pray anonymously
         </Button>
 
 
